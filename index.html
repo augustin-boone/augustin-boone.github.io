@@ -4,7 +4,55 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Augustin Boone</title>
-<link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; /*font-size: large;*/ }
+        
+        /* Layout */
+        body { display: flex; align-items: normal; justify-content: center; min-height: 100vh; color: #333333; background-color:  #fff; margin: 0;}
+        .container { width: 100%; max-width: 1000px; padding: 20px; text-align: left; }
+        .content-section { padding: 40px 20px; }
+        a { color: #333333; text-decoration: none;}
+        a:hover { color: #333333; text-decoration: underline;}
+        .row {
+        display: flex;
+        }
+        .flex-column {
+            padding: 20px;
+            border-radius: 8px;
+        }        
+        p {
+            margin-bottom: 20px; /* Adjust this value to control space */
+            text-align: justify;
+        }
+        .bold {
+            font-weight: bold; /* Make text bold */
+        }
+        .underline{
+            text-decoration: underline; /* Underline the text */
+        }
+
+        /* Header */
+        header { display: flex; align-items: center; justify-content: space-between; padding: 20px; background-color: #fff;  }
+        .nav-left { display: flex; gap: 20px; }
+        .nav-left a, .nav-right a { color: #333; text-decoration: none; font-weight: bold; }
+        .nav-left a:hover, .nav-right a:hover { color: #555; }
+        .nav-right { font-size: 1.2rem; }
+        .nav-right a { font-size: 1.2rem; }
+
+        /* Sections */
+        .section-title { font-size: 2rem; margin-bottom: 20px; color: #333; }
+        .portfolio-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .portfolio-item { width: 300px; padding: 20px; background: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; }
+        .portfolio-item img { width: 100%; height: auto; border-radius: 8px; }
+        .portfolio-item h3 { margin: 10px 0; font-size: 1.2rem; color: #333; }
+
+        /* Contact Form */
+        form { display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: 0 auto; }
+        input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%; }
+        button { padding: 12px; background-color: #333; color: #fff; border: none; cursor: pointer; border-radius: 4px; }
+        button:hover { background-color: #555; }
+    </style>
 </head>
 <body>
  
