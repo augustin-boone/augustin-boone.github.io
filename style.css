@@ -1,9 +1,10 @@
+       /* Reset */
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; /*font-size: large;*/ }
         
         /* Layout */
         body { display: flex; align-items: normal; justify-content: center; min-height: 100vh; color: #333333; background-color:  #fff; margin: 0;}
         .container { width: 100%; max-width: 1000px; padding: 20px; text-align: left; }
-        .content-section { padding: 15px 20px; }
+        .content-section { padding: 40px 20px; }
         a { color: #333333; text-decoration: none;}
         a:hover { color: #333333; text-decoration: underline;}
         .row {
@@ -20,13 +21,9 @@
         .bold {
             font-weight: bold; /* Make text bold */
         }
-        .italic {
-            font-style: italic; /* Make text italic */
-        }
         .underline{
             text-decoration: underline; /* Underline the text */
         }
-
 
         /* Header */
         header { display: flex; align-items: center; justify-content: space-between; padding: 20px; background-color: #fff;  }
