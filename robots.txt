@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://augustin-boone.github.io/sitemap.xml
