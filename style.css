@@ -54,14 +54,6 @@ nav a:hover {
   align-items: flex-start;
 }
  
-.profile-photo {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 4px;
-  flex-shrink: 0;
-  filter: grayscale(100%);
-}
  
 .profile-text h1 {
   margin-top: 0;
