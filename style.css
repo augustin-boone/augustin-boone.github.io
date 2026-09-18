@@ -36,7 +36,7 @@ header { display: flex; align-items: center; justify-content: space-between; pad
 .portfolio-item img { width: 100%; height: auto; border-radius: 8px; }
 .portfolio-item h3 { margin: 10px 0; font-size: 1.2rem; color: #333; }
 
-.profile-photo { border-radius: 8px; }
+.profile-photo { border-radius: 8px; filter: grayscale(100%); }
 
 /* Footer */
 footer {
